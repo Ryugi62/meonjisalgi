@@ -1,0 +1,496 @@
+{
+ "cards": [
+  {
+   "id": "seoul-hub",
+   "region": "서울",
+   "tier": 1,
+   "doc": "서울시 보도자료(서울 미디어허브)",
+   "url": "https://mediahub.seoul.go.kr/archives/2010251",
+   "date": "2024-02-08",
+   "quote": "‘자립수당’은 40만원에서 50만원, ‘자립정착금’은 1,500만원에서 2,000만원으로 각각 인상",
+   "field": "settle",
+   "value": 2000
+  },
+  {
+   "id": "seoul-allow",
+   "region": "서울",
+   "tier": 1,
+   "doc": "서울시 자립수당 신청 안내",
+   "url": "https://news.seoul.go.kr/welfare/archives/511982",
+   "date": "2026-04-20",
+   "quote": "매월 20일마다 50만원씩 신청 청년 본인 명의 계좌 지급",
+   "field": "allow",
+   "value": 50
+  },
+  {
+   "id": "seoul-period",
+   "region": "서울",
+   "tier": 1,
+   "doc": "서울시 자립수당 신청 안내",
+   "url": "https://news.seoul.go.kr/welfare/archives/511982",
+   "date": "2026-04-20",
+   "quote": "보호종료일이 속한 달부터 최대 60회차 까지 가능",
+   "field": "period",
+   "value": null
+  },
+  {
+   "id": "seoul-target",
+   "region": "서울",
+   "tier": 1,
+   "doc": "서울시 자립수당 신청 안내",
+   "url": "https://news.seoul.go.kr/welfare/archives/511982",
+   "date": "2026-04-20",
+   "quote": "만 18세 이후 만기 및 보호연장종료 또는 재보호 종료된 자로서, 보호종료 5년이내인 자립준비청년",
+   "field": "target",
+   "value": null
+  },
+  {
+   "id": "seoul-how",
+   "region": "서울",
+   "tier": 1,
+   "doc": "서울시 자립수당 신청 안내",
+   "url": "https://news.seoul.go.kr/welfare/archives/511982",
+   "date": "2026-04-20",
+   "quote": "'복지로' 홈페이지 온라인 신청 또는 관할 주소지 동주민센터 방문 신청",
+   "field": "how",
+   "value": null
+  },
+  {
+   "id": "busan-settle",
+   "region": "부산",
+   "tier": 1,
+   "doc": "부산시 자립정착금 지원",
+   "url": "https://www.busan.go.kr/depart/settlementgrant",
+   "date": "2025-11-27",
+   "quote": "자립정착금 1인당 1,200만원(2회 분할 지급)",
+   "field": "settle",
+   "value": 1200
+  },
+  {
+   "id": "busan-when",
+   "region": "부산",
+   "tier": 1,
+   "doc": "부산시 자립정착금 지원",
+   "url": "https://www.busan.go.kr/depart/settlementgrant",
+   "date": "2025-11-27",
+   "quote": "신청기간 : 자립정착금 수령 1개월 이전",
+   "field": "settle_when",
+   "value": null
+  },
+  {
+   "id": "busan-edu",
+   "region": "부산",
+   "tier": 1,
+   "doc": "부산시 자립정착금 지원",
+   "url": "https://www.busan.go.kr/depart/settlementgrant",
+   "date": "2025-11-27",
+   "quote": "자립준비청년 금융교육(자립지원전담기관 실시) 의무 이수",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "busan-plan",
+   "region": "부산",
+   "tier": 1,
+   "doc": "부산시 자립정착금 지원",
+   "url": "https://www.busan.go.kr/depart/settlementgrant",
+   "date": "2025-11-27",
+   "quote": "‘자립정착금 사용계획서’ 구‧군 제출",
+   "field": "how",
+   "value": null
+  },
+  {
+   "id": "daegu-allow",
+   "region": "대구",
+   "tier": 1,
+   "doc": "대구시 자립준비청년 지원",
+   "url": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+   "date": "2026-03-23",
+   "quote": "매월 50만원 현금지급(본인명의 계좌 이체 원칙)",
+   "field": "allow",
+   "value": 50
+  },
+  {
+   "id": "daegu-settle",
+   "region": "대구",
+   "tier": 1,
+   "doc": "대구시 자립준비청년 지원",
+   "url": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+   "date": "2026-03-23",
+   "quote": "보호종료 시 1인당 1천만원 지급",
+   "field": "settle",
+   "value": 1000
+  },
+  {
+   "id": "daegu-return",
+   "region": "대구",
+   "tier": 1,
+   "doc": "대구시 자립준비청년 지원",
+   "url": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+   "date": "2026-03-23",
+   "quote": "지원불가 : ①보호 조기종료 후 원가정으로 복귀한 경우",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "daegu-2yr",
+   "region": "대구",
+   "tier": 1,
+   "doc": "대구시 자립준비청년 지원",
+   "url": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+   "date": "2026-03-23",
+   "quote": "보호종료일을 기준으로 과거 2년 이상 연속하여 보호를 받은 자",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "daegu-pre",
+   "region": "대구",
+   "tier": 1,
+   "doc": "대구시 자립준비청년 지원",
+   "url": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+   "date": "2026-03-23",
+   "quote": "보호종료 30일 전부터 구군 아동보호팀으로 사전신청 가능(보호종료 이후 지급)",
+   "field": "allow_when",
+   "value": null
+  },
+  {
+   "id": "daegu-5yr",
+   "region": "대구",
+   "tier": 1,
+   "doc": "대구시 자립준비청년 지원",
+   "url": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+   "date": "2026-03-23",
+   "quote": "만18세 이후 만기 또는 연장 보호종료된 자로서 보호종료 5년 이내인 자",
+   "field": "target",
+   "value": null
+  },
+  {
+   "id": "daegu-early",
+   "region": "대구",
+   "tier": 1,
+   "doc": "대구시 자립준비청년 지원",
+   "url": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+   "date": "2026-03-23",
+   "quote": "만 15세 이후 보호조치가 조기 종료된 자로서 만18세가 된 때로부터 5년 이내인 자(단, 아동복지법 시행(‛24.2.9.)이후 만18세가 된 자부터 적용)",
+   "field": "target",
+   "value": null
+  },
+  {
+   "id": "incheon-allow",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립수당",
+   "url": "https://www.incheon.go.kr/welfare/WE020441",
+   "date": "2026-10-24",
+   "quote": "매월 50만원 현금 지급(본인 명의 계좌 이체) 원칙",
+   "field": "allow",
+   "value": 50
+  },
+  {
+   "id": "incheon-2yr",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립수당",
+   "url": "https://www.incheon.go.kr/welfare/WE020441",
+   "date": "2026-10-24",
+   "quote": "보호종료일을 기준으로 과거 2년 이상 연속하여 보호를 받은 아동",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "incheon-5yr",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립수당",
+   "url": "https://www.incheon.go.kr/welfare/WE020441",
+   "date": "2026-10-24",
+   "quote": "만18세 이후 만기 또는 연장 보호종료된 사람으로 보호종료 5년 이내인 사람",
+   "field": "target",
+   "value": null
+  },
+  {
+   "id": "incheon-docs",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립수당",
+   "url": "https://www.incheon.go.kr/welfare/WE020441",
+   "date": "2026-10-24",
+   "quote": "사이버강의 이수증 (서민금융진흥원 금융교육포털 http://edu.kinfa.or.kr 이수) 또는 국민연금공단 재무상담 확인서 중 택 1부",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "incheon-pre",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립수당",
+   "url": "https://www.incheon.go.kr/welfare/WE020441",
+   "date": "2026-10-24",
+   "quote": "신청기간 보호종료 전 30일 이내 사전신청 가능 상시신청가능",
+   "field": "allow_when",
+   "value": null
+  },
+  {
+   "id": "incheon-settle",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립정착금",
+   "url": "https://www.incheon.go.kr/welfare/WE020442",
+   "date": "2026-10-24",
+   "quote": "보호종료 시 1인당 자립정착금 1,000만원 지급",
+   "field": "settle",
+   "value": 1000
+  },
+  {
+   "id": "incheon-settle-when",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립정착금",
+   "url": "https://www.incheon.go.kr/welfare/WE020442",
+   "date": "2026-10-24",
+   "quote": "신청기간 : 자립정착금 수령 1개월 이전",
+   "field": "settle_when",
+   "value": null
+  },
+  {
+   "id": "incheon-return",
+   "region": "인천",
+   "tier": 1,
+   "doc": "인천시 자립정착금",
+   "url": "https://www.incheon.go.kr/welfare/WE020442",
+   "date": "2026-10-24",
+   "quote": "지원제외 : 보호 조기종료 이후 원가정으로 복귀한 경우",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "gn-settle",
+   "region": "경남",
+   "tier": 1,
+   "doc": "경상남도 청년포털 자립준비청년 지원",
+   "url": "https://youth.gyeongnam.go.kr/youth/menu.es?mid=a11303000000",
+   "date": "미표기",
+   "quote": "자립준비청년 보호종료 시 15,000천원 일시금 지급",
+   "field": "settle",
+   "value": 1500
+  },
+  {
+   "id": "gn-allow",
+   "region": "경남",
+   "tier": 1,
+   "doc": "경상남도 청년포털 자립준비청년 지원",
+   "url": "https://youth.gyeongnam.go.kr/youth/menu.es?mid=a11303000000",
+   "date": "미표기",
+   "quote": "자립수당 : 매월 50만원 현금 지급",
+   "field": "allow",
+   "value": 50
+  },
+  {
+   "id": "gn-period",
+   "region": "경남",
+   "tier": 1,
+   "doc": "경상남도 청년포털 자립준비청년 지원",
+   "url": "https://youth.gyeongnam.go.kr/youth/menu.es?mid=a11303000000",
+   "date": "미표기",
+   "quote": "지급기한 : 보호종료일이 속한 달부터 최대 60회차까지 가능",
+   "field": "period",
+   "value": null
+  },
+  {
+   "id": "gn-pre",
+   "region": "경남",
+   "tier": 1,
+   "doc": "경상남도 청년포털 자립준비청년 지원",
+   "url": "https://youth.gyeongnam.go.kr/youth/menu.es?mid=a11303000000",
+   "date": "미표기",
+   "quote": "보호종료 30일 이내 시설, 공동생활가정, 가정위탁지원센터 사전 신청이 우선이나, 퇴소 후 주소지 읍면동에서 아동 직접 신청 가능",
+   "field": "allow_when",
+   "value": null
+  },
+  {
+   "id": "gn-plan",
+   "region": "경남",
+   "tier": 1,
+   "doc": "경상남도 청년포털 자립준비청년 지원",
+   "url": "https://youth.gyeongnam.go.kr/youth/menu.es?mid=a11303000000",
+   "date": "미표기",
+   "quote": "자립정착금 사용계획서 작성 후 행정복지센터 → 대상자 선정 → 계좌로 지급",
+   "field": "how",
+   "value": null
+  },
+  {
+   "id": "cb-allow",
+   "region": "충북",
+   "tier": 1,
+   "doc": "충청북도 자립준비청년 자립수당",
+   "url": "https://www.chungbuk.go.kr/young/contents.do?key=5040",
+   "date": "2026년 사업(1~12월)",
+   "quote": "자립준비청년에게 매월 50만원의 자립수당 지급",
+   "field": "allow",
+   "value": 50
+  },
+  {
+   "id": "cb-target",
+   "region": "충북",
+   "tier": 1,
+   "doc": "충청북도 자립준비청년 자립수당",
+   "url": "https://www.chungbuk.go.kr/young/contents.do?key=5040",
+   "date": "2026년 사업(1~12월)",
+   "quote": "아동복지시설․가정위탁 보호종료 5년 이내인 자",
+   "field": "target",
+   "value": null
+  },
+  {
+   "id": "cb-2yr",
+   "region": "충북",
+   "tier": 1,
+   "doc": "충청북도 자립준비청년 자립수당",
+   "url": "https://www.chungbuk.go.kr/young/contents.do?key=5040",
+   "date": "2026년 사업(1~12월)",
+   "quote": "보호종료일 기준 과거 2년 이상 연속보호를 받은자",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "cb-size",
+   "region": "충북",
+   "tier": 1,
+   "doc": "충청북도 자립준비청년 자립수당",
+   "url": "https://www.chungbuk.go.kr/young/contents.do?key=5040",
+   "date": "2026년 사업(1~12월)",
+   "quote": "사업규모 315명",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "gj-allow",
+   "region": "광주",
+   "tier": 1,
+   "doc": "광주시 자립준비청년 자립수당 지원",
+   "url": "https://www.gwangju.go.kr/mogef/contentsView.do?pageId=mogef62",
+   "date": "미표기",
+   "quote": "5년간 자립수당 지원으로 자립 강화 (500천원*12월*5년)",
+   "field": "allow",
+   "value": 50
+  },
+  {
+   "id": "mohw-allow",
+   "region": "전국",
+   "tier": 2,
+   "doc": "보건복지부 보도자료(18세 이전 보호종료도 자립지원)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480211",
+   "date": "2024-02-07",
+   "quote": "올해 1월 10만 원을 추가 인상하여 월 50만 원씩 지급받고 있다",
+   "field": "allow",
+   "value": 50
+  },
+  {
+   "id": "mohw-settle",
+   "region": "전국",
+   "tier": 2,
+   "doc": "보건복지부 보도자료(18세 이전 보호종료도 자립지원)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480211",
+   "date": "2024-02-07",
+   "quote": "(24년 기준) 서울 2000만 원, 대전·경기·제주 1500만 원, 경남 1200만 원 외 1000만 원",
+   "field": "settle_table",
+   "value": null
+  },
+  {
+   "id": "mohw-min",
+   "region": "전국",
+   "tier": 2,
+   "doc": "보건복지부 보도자료(18세 이전 보호종료도 자립지원)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480211",
+   "date": "2024-02-07",
+   "quote": "전국 17개 시·도 모두 보건복지부 권고 기준인 1000만 원 이상을 지급",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "mohw-5yr",
+   "region": "전국",
+   "tier": 2,
+   "doc": "보건복지부 보도자료(18세 이전 보호종료도 자립지원)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480211",
+   "date": "2024-02-07",
+   "quote": "보호종료 후 5년간 지급되는 자립수당",
+   "field": "period",
+   "value": null
+  },
+  {
+   "id": "mohw-early",
+   "region": "전국",
+   "tier": 2,
+   "doc": "보건복지부 보도자료(18세 이전 보호종료도 자립지원)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480211",
+   "date": "2024-02-07",
+   "quote": "법 시행일 전에 15세 이후 보호종료된 아동의 경우에는 2024년 2월 9일 이후 18세가 되는 아동부터 지원받을 수 있다",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "mohw-home",
+   "region": "전국",
+   "tier": 2,
+   "doc": "보건복지부 보도자료(18세 이전 보호종료도 자립지원)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480211",
+   "date": "2024-02-07",
+   "quote": "원가정복귀 사유는 원칙적 지원 대상은 아니나, 아동복지심의위원회의 심의를 거쳐 필요하다고 판단되는 경우 예외적으로 지원받을 수 있다",
+   "field": "rule",
+   "value": null
+  },
+  {
+   "id": "nabo-settle",
+   "region": "전국",
+   "tier": 3,
+   "doc": "국회예산정책처 「자립지원 대상 아동·청년 지원사업 평가」 보도자료",
+   "url": "https://www.nabo.go.kr/ko/notice/releasesView.do?idx=8846",
+   "date": "2025-08-05",
+   "quote": "서울 2,000만원, 대전·경기·경남·제주 1,500만원, 부산 1,200만원, 기타 1,000만원",
+   "field": "settle_table",
+   "value": null
+  },
+  {
+   "id": "nabo-site",
+   "region": "전국",
+   "tier": 3,
+   "doc": "국회예산정책처 「자립지원 대상 아동·청년 지원사업 평가」 보도자료",
+   "url": "https://www.nabo.go.kr/ko/notice/releasesView.do?idx=8846",
+   "date": "2025-08-05",
+   "quote": "보호대상아동의 보호시설 소재지를 기준으로 지급되는 자립정착금",
+   "field": "rule",
+   "value": null
+  }
+ ],
+ "table": {
+  "서울": [
+   2000,
+   2000
+  ],
+  "대전": [
+   1500,
+   1500
+  ],
+  "경기": [
+   1500,
+   1500
+  ],
+  "제주": [
+   1500,
+   1500
+  ],
+  "경남": [
+   1200,
+   1500
+  ],
+  "부산": [
+   null,
+   1200
+  ]
+ },
+ "other": [
+  1000,
+  1000
+ ]
+}

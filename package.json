@@ -1,0 +1,1 @@
+{"name":"meonjisalgi","version":"1.0.0","private":true,"scripts":{"test":"node --test test/core.test.js","build:cards":"python3 scripts/build_cards.py"},"engines":{"node":">=20"}}
