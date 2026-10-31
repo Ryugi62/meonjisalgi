@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # 데모 영상 녹화: 배포된 URL을 헤드리스 크로미움으로 조작하며 화면만 녹화(얼굴·목소리 없음, 자막 오버레이).
 import json, sys, time, os
 from playwright.sync_api import sync_playwright
