@@ -12,3 +12,11 @@ t.test("인용에 없는 숫자는 거부", () => {
   a.equal(L.verifyItem({ title: "정착금 1,200만원", cites: ["busan-settle"] }).ok, true);
   a.equal(L.verifyItem({ title: "정착금", cites: [] }).ok, false);
 });
+
+t.test("시군구 단위 질문은 가드", () => {
+  a.ok(L.unitGuard("서울 강남구는 정착금을 더 주나요?"));
+  a.ok(L.unitGuard("구리시는 정착금을 얼마 주나요?"));
+  a.ok(L.unitGuard("서울 구마다 정착금이 달라요?"));
+  a.equal(L.unitGuard("서울시 정착금은 얼마예요?"), null);
+  a.equal(L.unitGuard("부산 정착금은 언제 신청해요?"), null);
+});

@@ -58,4 +58,12 @@ function verifyItem(item, allowedExtra) {
   if (bad.length) return { ok: false, why: "인용에 없는 숫자: " + [...new Set(bad)].join(", ") };
   return { ok: true };
 }
-module.exports = { REGIONS, data, cardById, cardsFor, settleFact, allowFact, schedule, verifyItem, nums };
+// 시·군·구 단위 질문 가드: 광역 안내문 카드로는 답할 수 없는 질문이면 거절 문구, 아니면 null
+function unitGuard(q) {
+  const metro = /^(서울|부산|대구|인천|광주|대전|울산|세종)시$/;
+  const unit = (q.match(/[가-힣]{2,4}(시|군|구)(?=[은는이가의에도을를\s?]|$)/g) || []).find(u => !metro.test(u) && !/^(보호|지자|공공|도시|농어)/.test(u));
+  if (unit) return `‘${unit}’ 같은 시·군·구 단위 안내문은 카드에 없어 답하지 않습니다. 해당 구·군 담당 부서에 확인하세요.`;
+  if (/(구|군|시)(마다|별로|별)|시군구|구 ?단위/.test(q)) return "시·군·구 단위 안내문은 카드에 없어 답하지 않습니다. 해당 구·군 담당 부서에 확인하세요.";
+  return null;
+}
+module.exports = { unitGuard, REGIONS, data, cardById, cardsFor, settleFact, allowFact, schedule, verifyItem, nums };

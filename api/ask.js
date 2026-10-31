@@ -7,10 +7,9 @@ module.exports = async function handler(req, res) {
     const b = req.method === "POST" ? (typeof req.body === "string" ? JSON.parse(req.body) : req.body) : req.query;
     const { region, question } = b || {};
     if (!L.REGIONS.includes(region) || !question || question.length > 300) return res.status(400).end(JSON.stringify({ error: "소재지와 300자 이내 질문이 필요합니다." }));
-    // 시·군·구 단위 질문은 광역 안내문으로 답할 수 없다(결정적 가드)
-    const metro = /^(서울|부산|대구|인천|광주|대전|울산|세종)시$/;
-    const unit = (question.match(/[가-힣]{2,4}(시|군)(?=[은는이가의에도을를\s?]|$)/g) || []).find(u => !metro.test(u) && !/^(보호|지자|공공|도시|농어)/.test(u));
-    if (unit) return res.status(200).end(JSON.stringify({ region, question, model: "guard", answered: false, refusal: `‘${unit}’ 같은 시·군 단위 안내문은 카드에 없어 답하지 않습니다. 해당 시·군 담당 부서에 확인하세요.` }));
+    // 시·군·구 단위 질문은 광역 안내문으로 답할 수 없다(결정적 가드, lib.unitGuard)
+    const ug = L.unitGuard(question);
+    if (ug) return res.status(200).end(JSON.stringify({ region, question, model: "guard", answered: false, refusal: ug }));
     const cards = L.cardsFor(region);
     const st = L.settleFact(region);
     const prompt = `당신은 자립준비청년 지원 안내 도우미입니다. 아래 [카드](공식 안내문 인용)만 근거로 질문에 답하세요.
